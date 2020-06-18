@@ -35,3 +35,17 @@ To decrypt, compute b/a<sup>x</sup> = m.
 ### Digital Signature Scheme from Encyption Scheme
 * Sign(SK, m) = Dec(SK, m)
 * Verify(PK, m, sign) = (Enc(PK, m) == sign)
+
+## Abel-Ruffini Theorem
+
+### Abstract Algebra Preliminary
+
+* **Group:** A set (G) and a binary operator (+). Has four properties: clousure (a+b is in G), associativity ((a+b)+c = a+(b+c)), identity element, inverse element.
+* **Cyclic Group:** There's a g in G such that g^n generates all the elements.
+* **Normal Subgroup:** N such that for all n in N and for all g in G g+n+g-1 is in N.
+* **Coset:** Na = {n+a for n in N} where N is a subgroup and a is an element of G.
+* **Quotient Group:** G/N = {Ng for g in G}. This is also a group since (Na)(Nb) = N(a+b).
+* **Solvable Group:** G is solvable if there exists a chain:
+{0}=G<sub>0</sub><=...<=G<sub>k</sub>=G
+where G<sub>i-1</sub> is normal in G<sub>i</sub> and G<sub>i</sub>/G<sub>i-1</sub> is cyclic.
+* **Field:** to be continued..
